@@ -35,11 +35,11 @@
   .container {
     padding: 30px 20px;
     align-items: center;
-    width: 100%;
+    width: 50%;
   }
 
   .left {
-    width: 100%;
+    width: 50%;
     margin: 0;
   }
 
@@ -55,14 +55,15 @@
 
 @media (max-width: 480px) {
   .container {
-    padding: 20px 10px;
+    display: none;
+    /* padding: 20px 10px;
+    display: flex;
     align-items: center;
-    width: 100%;
+    flex-wrap: wrap; */
   }
 
-  .left {
-    width: 100%;
-    margin: 0;
+  /* .left {
+    flex: 100%;
   }
 
   .heading {
@@ -71,6 +72,7 @@
   }
 
   .right {
+    flex: 100%;
     display: none;
-  }
+  } */
 }
